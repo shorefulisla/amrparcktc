@@ -17,6 +17,8 @@ public class StudentList {
 			} catch (Exception e){} 
 			System.out.println("Data Loaded.");
 		}
+
+		///// amr code is easy ///
 		else if(args[0].equals("r")) 
 		{
 			System.out.println("Loading data ...");			
