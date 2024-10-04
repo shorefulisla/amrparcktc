@@ -17,6 +17,8 @@ public class StudentList {
 			} catch (Exception e){} 
 			System.out.println("Data Loaded.");
 		}
+
+		///// amr code is easy ///
 		else if(args[0].equals("r")) 
 		{
 			System.out.println("Loading data ...");			
@@ -46,6 +48,9 @@ public class StudentList {
 			s.write(", "+t+"\nList last updated on "+fd);
 			s.close();
 			} catch (Exception e){}
+
+
+			/// adfasdf as/// adfa
 							
 			System.out.println("Data Loaded.");	
 		}
@@ -90,6 +95,8 @@ public class StudentList {
 					else { in_word=false;}			
 				}
 			}
+
+			/// halaka chene   e
 			System.out.println(count +" word(s) found " + a.length);
 			} catch (Exception e){} 
 			System.out.println("Data Loaded.");				
